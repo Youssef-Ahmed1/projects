@@ -1,0 +1,178 @@
+*
+{ padding: 0;
+margin: 0;
+}
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+/*the background of the header of the site*/
+.head {
+width: 100%;
+background-color: #1f2937;
+height: 600px;
+}
+nav{display: flex; }
+/*the menu1 of the site*/
+.lis,a,.lis3,.lis2
+{
+display: inline;
+position: absolute;
+left: 612px;
+padding: 5px;
+top: 10px;
+}
+/*the menu2 of the site*/
+.lis{margin-right: 100px;}
+.lis2{margin-left: 100px;} 
+.lis3{margin-left: 205px;}
+
+/*the header iamge of the site*/
+.imgs{
+display: flex;
+width: 600px;
+height: 300px;
+margin-top: 182px;
+left: 915px;
+position: absolute;
+}
+/*the logo of the site*/
+.logo{
+position: absolute;
+top:20px;
+width: 100px;
+height: 50px;
+padding: 10px;
+margin: 10px;
+left: 100px;
+}
+a
+{color:aliceblue;
+text-decoration: none;
+}
+/*the text of the header*/
+.heading,.heading3{
+color: beige;
+display: flex;
+position: absolute;
+top: 200px;
+}
+.heading{
+font-size: 48px;
+font-weight:900;
+}
+.heading3{
+top: 300px;
+}
+/*the sign up button*/
+.btn{
+display: flex;
+position: absolute;
+top: 408px;
+background-color: #3882f6;
+border-radius: 6px;
+width: 131px;
+height: 34px;
+color: aliceblue;
+left: 484px;
+border-color: transparent;
+}/*the text after the header*/
+h2{
+font-weight: bolder; font-size: 32px;
+display: flex;
+justify-content: center;
+padding: 20px;
+margin-top: 40px;
+} /*illistrtion icons*/
+.con1,.con2,.con3,.con4
+{ display: flex;
+position: absolute;
+justify-content: center;
+align-items: center;
+border-radius: 8px;
+width:250px;
+height:160px;}
+/*the illustration icons 2*/
+.con1{left: 300px;top:800px;}
+.con2{top: 800px;}
+.con3{left: 700px;top: 800px;}
+.con4{left: 1200px;top: 800px;}
+/*the sub text near the illustration*/
+.sub1,.sub2,.sub3,.sub4
+{position: absolute;
+display: inline-flex;
+margin: 10px;
+font-size: 18px;
+top: 200px;
+}/*the blockquote container*/
+.quote-place
+{position: absolute;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color: #e5e7eb;
+width: 1800px;height: 400px;
+top: 1400px;
+}/*the blockquote text*/
+.quote{
+display:flex;
+font-size: 36px;
+font-weight: lighter;
+position: relative;
+right:250px;
+}/*the person name in the blockquote */
+#quote-guy{
+font-weight:bold;
+font-size:large;
+position:absolute;
+top:350px;
+left:1400px;    
+}/*the container that has see our plans button*/
+.cta{
+display: flex;
+position: absolute;
+left: 400px;
+top: 1900px;
+background-color: #3882f6;
+border-radius: 7px;
+height: 80px; width: 800px;
+}/*the text near the see our our plans button*/
+.call{
+display: flex;
+position: absolute;
+color: aliceblue;
+left: 10px;
+top: 20px;
+}/*the sub text in the near of the see our plans */
+.sub-c{
+display: flex;
+position: absolute;
+color: aliceblue;
+top: 50px;
+left: 10px;}
+/*the see the plans button */
+.signup-c{
+display: flex;
+position: absolute;
+left:600px;
+top: 30px;
+width: 140px;
+height: 35px;
+border-radius: 7px;
+background-color: #3882f6;
+color: #e5e7eb;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+}/*the footer of the page */
+.footer{
+display: flex;
+position: absolute;
+justify-content: center;
+background-color: #1f2937;
+width: 100%;height:60px;
+top: 2100px;
+color: aliceblue;
+align-items: center;
+}
